@@ -32,6 +32,5 @@ public class Evidence {
                     break;
             }
         } while (pokracuj);
-
     }
 }
