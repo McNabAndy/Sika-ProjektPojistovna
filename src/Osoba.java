@@ -1,3 +1,6 @@
+/**
+ * Třída představuje Osobu, které chci vytvořit pojištění
+ */
 public class Osoba {
     /**
      * Jméno osoby

@@ -1,3 +1,6 @@
+/**
+ * Třída představuje, validátor vstupů od uživatele
+ */
 public class Validator {
 
     /**
@@ -23,6 +26,4 @@ public class Validator {
         }
         return false;
     }
-
-
 }

@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Třída představuje databázy pojištěných osob
+ */
+
 public class Databaze {
 
     /**
@@ -36,7 +40,7 @@ public class Databaze {
      * @return Kolekci všech nalezených osob v databázi
      */
     public List<Osoba> vyhledejPojisteneho(String jmeno, String prijmeni) {
-        nalezeneOsoby.clear();
+        nalezeneOsoby.clear();  // vyčištění předchozí kolekce pomocí, které jsem vyhledával (pokud tam něco bylo)
         for (Osoba osoba : databazePojistenych) {
             if (jmeno.equals(osoba.getJmeno()) && prijmeni.equals(osoba.getPrijmeni())) {
                 nalezeneOsoby.add(osoba);
