@@ -1,0 +1,14 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - ok
+2. Dodržení principů SRP a SoC - ok
+3. Vhodný výběr datových typů - ok
+4. Formátování kódu - ok
+5. Duplicitní kód a nekonečné cykly - ok
+6. Validace vstupních dat - ok
+7. Logičnost a složitost - List nalezeneOsoby ve třídě Databaze by mohla být definována pouze jako lokální proměnná v metodě, odpadla by tak i nutnost "čistit" list. Podobný problém je i v dalších třídách, hlavně třída Vstup.
+8. Komentáře - ok
+9. Celkové hodnocení - Kód splňuje zadání, ovšem je zbytečně komplikovaný a místy nepřehledný. Třída Vstup je v kódu zbytečná, obsahuje z velké části pouze jednořádkové metody a neposkytuje žádnou abstrakci. Validace je rozdělena mezi třídu Validator a Vystup, v první třídě
+                       se například kontroluje, zda je věk nezáporný, ovšem kontrola zda je nečíselný je až ve třídě druhé. Doporučil bych kód zjednodušit, takto je zbytečně překombinovaný.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
